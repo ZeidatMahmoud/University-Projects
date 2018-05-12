@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.mahmo.ven.DispalyAll">
+
+   <Button
+       android:id="@+id/clear"
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:layout_marginLeft="300dp"
+       android:layout_marginRight="20dp"
+       android:background="@android:drawable/ic_input_delete"
+       android:text="" />
+
+   <ListView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/dispalyall"
+       android:dividerHeight="2dp"
+       android:divider="@color/colorAccent"
+       android:layout_marginRight="20dp"
+       android:layout_marginLeft="20dp"
+       android:layout_marginTop="20dp"></ListView>
+
+</LinearLayout>

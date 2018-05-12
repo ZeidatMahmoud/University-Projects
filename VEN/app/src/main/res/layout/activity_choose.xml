@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mahmo.ven.Choose">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/usernameup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="mahmood"
+            android:textSize="30dp" />
+        <com.ebanx.swipebtn.SwipeButton
+            android:id="@+id/maintainCustomers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="70dp"
+            app:button_background="@drawable/shape_button"
+            app:button_bottom_padding="20dp"
+            app:button_image_disabled="@drawable/person"
+            app:button_image_enabled="@drawable/person"
+            app:button_image_height="60dp"
+            app:button_image_width="100dp"
+            app:button_left_padding="20dp"
+            app:button_right_padding="20dp"
+            app:button_top_padding="20dp"
+            app:has_activate_state="true"
+            app:initial_state="disabled"
+            app:inner_text="Customers"
+            app:inner_text_background="@drawable/shape_rounded"
+            app:inner_text_bottom_padding="18dp"
+            app:inner_text_color="@android:color/white"
+            app:inner_text_size="16sp"
+            app:inner_text_top_padding="18dp" />
+
+
+        <com.ebanx.swipebtn.SwipeButton
+            android:id="@+id/maintainorders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            app:button_background="@drawable/shape_button"
+            app:button_bottom_padding="20dp"
+            app:button_image_disabled="@drawable/order4"
+            app:button_image_enabled="@drawable/order4"
+            app:button_image_height="60dp"
+            app:button_image_width="100dp"
+            app:button_left_padding="20dp"
+            app:button_right_padding="20dp"
+            app:button_top_padding="20dp"
+            app:has_activate_state="true"
+            app:initial_state="disabled"
+            app:inner_text="Orders"
+            app:inner_text_background="@drawable/shape_rounded"
+            app:inner_text_bottom_padding="18dp"
+            app:inner_text_color="@android:color/white"
+            app:inner_text_size="16sp"
+            app:inner_text_top_padding="18dp" />
+
+        <com.ebanx.swipebtn.SwipeButton
+            android:id="@+id/maintainproducts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            app:button_background="@drawable/shape_button"
+            app:button_bottom_padding="20dp"
+            app:button_image_disabled="@drawable/pro"
+            app:button_image_enabled="@drawable/pro"
+            app:button_image_height="60dp"
+            app:button_image_width="100dp"
+            app:button_left_padding="20dp"
+            app:button_right_padding="20dp"
+            app:button_top_padding="20dp"
+            app:has_activate_state="true"
+            app:initial_state="disabled"
+            app:inner_text="Products"
+            app:inner_text_background="@drawable/shape_rounded"
+            app:inner_text_bottom_padding="18dp"
+            app:inner_text_color="@android:color/white"
+            app:inner_text_size="16sp"
+            app:inner_text_top_padding="18dp" />
+
+
+
+
+        <com.ebanx.swipebtn.SwipeButton
+            android:id="@+id/maintainpayment"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            app:button_background="@drawable/shape_button"
+            app:button_bottom_padding="20dp"
+            app:button_image_disabled="@drawable/money"
+            app:button_image_enabled="@drawable/money"
+            app:button_image_height="60dp"
+            app:button_image_width="100dp"
+            app:button_left_padding="20dp"
+            app:button_right_padding="20dp"
+            app:button_top_padding="20dp"
+            app:initial_state="disabled"
+            app:inner_text="Payments"
+            app:inner_text_background="@drawable/shape_rounded"
+            app:inner_text_bottom_padding="18dp"
+            app:inner_text_color="@android:color/white"
+            app:inner_text_size="16sp"
+            app:inner_text_top_padding="18dp" />
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
